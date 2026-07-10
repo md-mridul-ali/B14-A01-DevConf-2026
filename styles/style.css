@@ -7,3 +7,33 @@ body {
   font-weight: 400px;
   font-style: normal;
 }
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+nav img{
+    height: 40px;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #575757;
+}
+.button{
+    padding: 10px 30px;
+    border:none;
+    border-radius: 8px;
+    color: white;
+    background-color: #1D4ED8;
+}
