@@ -64,7 +64,7 @@ p {
   color: white;
 }
 header h2 {
-  font-size: xx-large;
+  font-size: 60px;
 }
 header button {
   margin-top: 150px;
@@ -81,6 +81,7 @@ main section {
 }
 .main-container h2 {
   margin-bottom: 60px;
+  font-size: 40px;
 }
 .main-container h5 {
   color: #2563eb;
@@ -129,6 +130,7 @@ main section {
 }
 .secure-title h2 {
   margin-bottom: 10px;
+  font-size: 40px;
 }
 .secure-title p {
   margin-bottom: 30px;
@@ -221,6 +223,7 @@ main section {
 }
 .sponsor h2 {
   color: #111827;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 .sponsor p {
