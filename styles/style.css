@@ -68,3 +68,47 @@ header h2{
 header button{
     margin-top: 150px;
 }
+main section{
+  background-color: aqua;
+  padding: 60px 8%;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section h2{
+  margin-bottom: 60px;
+}
+main section h5{
+  color: #2563EB;
+  font-weight: 700px;
+}
+main section h3{
+  color: #0D1B2A;
+  font-weight: bold;
+}
+main section p{
+  color: #575757;
+  font-size: 14px;
+}
+main section img{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.speaker{
+  background-color: white;
+  border:2px solid rgba(139, 138, 138, 0.149);
+  border-radius: 10px;
+}
+.speaker h5,h3,p{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.speakers-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  
+}
