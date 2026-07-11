@@ -192,3 +192,46 @@ main section{
   align-items: center;
   gap: 40px;
 }
+.sponsor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F5FF;
+}
+.sponsor-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.sponsor-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-card{
+  /* border: 2px solid #ECECEC;
+  border-radius: 10px; */
+  
+}
+.sponsor-card img{
+  width: 200px;
+  height: 110px;
+  /* object-fit: cover; */
+  border-radius: 10px;
+
+}
+.sponsor h2{
+  color: #111827;
+  margin-bottom: 10px;
+}
+.sponsor p{
+  color: #6B7280;
+}
+.sponsor-btn{
+  margin-top: 20px;
+}
